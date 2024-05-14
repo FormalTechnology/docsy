@@ -1,9 +1,22 @@
-
-public/
-resources/
 node_modules/
-tech-doc-hugo
+package-lock.json
+/tmp
+
+# Hugo
+.hugo_build.lock
+/public
+resources/
 
 # vim temporary files
 *~
 *.sw?
+
+# system files
+.DS_Store
+
+# IDE files
+.idea
+
+# VS Code
+/.vscode/**
+!/.vscode/cspell.json
